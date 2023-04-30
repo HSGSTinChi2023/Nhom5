@@ -1,0 +1,84 @@
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.button {
+    text-align: center;
+    background-color: aliceblue;
+    height: 75px;
+    width: 75px;
+}
+.table {
+    text-align: center;
+}
+.textt {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(97, 82, 82, 1);
+}
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+    cursor: pointer;
+}
+#a button {
+    font-size: 80px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    color:rgba(0, 0, 0, 0.5);
+}
+#lose{
+    display: none;
+}
+#win{
+    display: none;
+}
+#wrong{
+    display: none;
+}
+#reset{
+    display: block;
+}
+
+#text button {
+    font-size: 80px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#dcmvinh {
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: none;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#change {
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    color:rgb(97, 82, 82, 1);
+}
+
